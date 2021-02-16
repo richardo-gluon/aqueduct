@@ -26,7 +26,7 @@ class RequestBody extends BodyDecoder {
   /// The maximum size of a request body.
   ///
   /// A request with a body larger than this size will be rejected. Value is in bytes. Defaults to 10MB (1024 * 1024 * 10).
-  static int maxSize = 1024 * 1024 * 10;
+  static int maxSize = 1024 * 1024 * 9999;
 
   final HttpRequest _request;
 
